@@ -14,11 +14,11 @@ import java.util.Scanner;
 public class FizBuzz {
     public static void FizzBuzz() {
         Scanner firstNumber = new Scanner(System.in);
-        System.out.println("Ievadiet sākumskaitli: ");
+        System.out.print("Ievadiet sākumskaitli: ");
         int first = firstNumber.nextInt();
         
         Scanner secondNumber = new Scanner(System.in);
-        System.out.println("Ievadiet beigu skaitli: ");
+        System.out.print("Ievadiet beigu skaitli: ");
         int second = secondNumber.nextInt();
         
         if (first<second){
@@ -40,5 +40,6 @@ public class FizBuzz {
         else{
             System.out.println("Sākumskaitlim jābūt lielākam nekā beigu skaitlim");
         }
+        System.out.println();
     }
 }

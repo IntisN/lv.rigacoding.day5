@@ -15,11 +15,11 @@ public class LvRigacodingDay5 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        //FizBuzz.FizzBuzz();
+        FizBuzz.FizzBuzz();
         //RepeatingNumber.RepeatingNumber();
         //DecreasingString.DecreasingString();
         //AlarmClock.AlarmClock();
-        SpeedCamera.SpeedCamera();
+        //SpeedCamera.SpeedCamera();
     }
     
 }
